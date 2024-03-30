@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width:100%;
+    border: 1px solid rgb(158, 150, 150);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header img{
+    width: 6%;
+}
+.head_list li{
+   display: inline;
+    
+}
+.button b1{
+    background-color: rgb(7, 125, 70);
+   
+}
+.nav_bar{
+    background-color: rgb(22, 22, 89);
+    width: 100%;
+   color: white;
+   padding: 1%;
+}
+.nav_list{
+    padding: 0.3% 1%;
+}
+.nav_list li{
+    display: inline;
+    text-decoration: none;
+    margin: 0px 0.6%;
+}
+.developer{
+    background-image:url('https://www.w3schools.com/images/background_in_space.gif');
+    padding: 8%;
+    color:#e5e598;
+
+ }
+ .developer h1{
+    color: white;
+    font-size:5em ;
+ }
+ .learn_text{
+      font-size: 20%px;
+    border: 1px solid #282A35; 
+       border-radius: 25px;
+       float: left; 
+     width:70%;
+     padding-left: 25%;
+    background: white; 
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0 ;
+    border-right: 1px solid#04AA6d;
+    outline: 0;
+    margin-top: 40px;
+}
+.img{
+    margin-left: 80%;
+}
+#inputBox{
+    padding:1% 20% 1% 10%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#sideDiv{
+    position: absolute;
+    height:6.9%;
+    width:8%;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: green;
+    margin:-3.2% 00% 0% 39%;
+
+}
+a{
+    list-style: none;
+    color:white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-left:  15%;
+}
+
+.language_1{
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+   font-size:2em;
+   padding: 5%;
+}
+.language_h button{
+     padding: 1%;
+    border-radius: 20px;
+    border:none; 
+    font-size: 0.7em;
+    color: black;
+    display: flex;
+}
+.html_side_div{
+   padding: 0.5em;
+   font-size:25px;
+   border: solid color rgb(75, 68, 68);
+    justify-content: center;
+    background-color: #eaf7f3;
+}
+   .button_two{
+    padding: 1px;
+   font-size: 0.8em;
+   border: solid color rgb(66, 183, 72);
+    justify-content: center;
+
+
+}
+.html_side_indiv{
+    background-color: white;
+    font-size: 0.6em;
+    
+}
+.html_side_indiv span{
+    font-size: 1em;
+}
+ .html_side_div button{
+   padding: 10px 15px;
+   border-radius: 2em;
+   margin: 10px 5px;
+    
+}
+.Example_h{
+    font-size: 2;
+
+}
+.language_h{
+    float: left;
+}
+/* ============== */
+.programming{
+ background-color:rgb(234, 172, 193);
+   font-size:2em;
+  padding: 5%;
+   width: 40%;
+
+}
+.programming_1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-top: 3%;
+}
+
+.next{
+    width: 20%;
+   
+}
+.new{
+    font-size: 1em;
+    
+}
+.programming_two{
+    color: white;
+    font-size:2em;
+    text-align: center;
+}
+.img{
+    margin-left: 15px;
+}
+.button_r button{
+ padding: 5px 10px;
+    font-size: 0.5em;
+    width: 35%;
+    border-radius: 1em;
+
+/* ========      */
+}
+.Spaces button{
+    font-size: 1em;
+   border-radius: 3em;
+}
+.program_c{
+    background-color: rgb(180, 229 , 229);
+    width: 100%;
+    font-size: 1em;
+   
+}
+.program_new{
+    font-size: 1em;
+    border-radius: 3em;
+    align-items: center;
+    display: flex;
+}
+.program_new button{
+    text-align: center;
+    border-radius: 1em;
+    font-size: 3em;
+   
+}
+.program_new_2{
+width: 100%;
+font-size: 1em;
+text-align: center;
+}
+
+.program_new_3{
+width: 100%;
+font-size: 1em;
+text-align: center;
+padding: 10%;
+}
+.program_new_4{
+    width: 100%;
+    font-size: 1em;
+    text-align: center;
+    padding: 10%;
+
+
+}
+.learn_h button{
+    text-align: center;
+    border-radius: 1em;
+    font-size: 3em;   
+}
+.read_h{
+    color: #eaf7f3;
+}
+.program_new_5{
+    width: 100%;
+    padding: 10%;
+    text-align: center;
+    font-size: 1em;
+}
+.read_h{
+align-items: center;
+display: flex;
+justify-content: space-between;
+width:80%;
+}
+.program_new_5 h1{
+    color: aliceblue;
+    font-size: 2em;
+
+}
+.program_new_5 p{
+    color: aliceblue;
+    font-size: 2em;
+}
+.program_new_6 img{
+width: 70%;
+align-items: center;
+margin: 8%;
+}
+.program_new_6 button{
+    text-align: center;
+    border-radius: 1em;
+    font-size: 3em;
+}
+.Templates_h h1{
+    text-align: center;
+   
+}
+.Templates_h p{
+    text-align: center;
+    font-size: 2em;
+}
+.Kickstart{
+    padding-bottom:15%;
+    width:100%;
+    border:2px solid black;
+}
+
+.circle {
+    width: 13%;
+    padding: 6%;
+    background-color: green;
+    margin: 0 0 0 80%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ====== */
+.Section_mig{
+    text-align: right;
+}
+.program_new_8{
+    text-align: center;
+}
+
+ul{
+    /* width:100%; */
+    /* display:flex; */
+    color: #e5e598;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 8%;
+}
+.new_footer{
+    width: 100%;
+    background-color: black
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.example_sh1{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+
+}
+.book{
+    color: aliceblue;
+}
+
